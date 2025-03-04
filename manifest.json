@@ -9,15 +9,10 @@
 
   "description": "Organization tool that saves entire tab configurations and restores them on command.",
   
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  },
-  "browser_action": {
-    "default_popup": "popup.html"
-  },
-  "icons": {
-    "48": "icons/tabset-icon.png"
+  "sidebar_action": {
+    "default_panel": "bookmarks/bookmarks.html",
+    "default_icon": "icons/icon-48.png",
+    "default_title": "better bookmarks." 
   }
 }
   

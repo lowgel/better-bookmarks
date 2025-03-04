@@ -1,0 +1,17 @@
+/* Basic dark theme */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: #bb86fc;
+}
+
+button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 10px;
+}
